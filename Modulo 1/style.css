@@ -1,0 +1,41 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(211, 245, 173) 0%,
+    rgb(248, 246, 209) 100%
+  );
+}
+
+.cv {
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.46);
+}
+
+.cv__data > h1:first-child {
+  margin-top: 0px;
+}
+
+.cv__perfil > h3:first-child {
+  margin-top: 0px;
+}
+.cv__perfil {
+  width: 300px;
+}
+
+.foto {
+  border-radius: 9999px;
+}
